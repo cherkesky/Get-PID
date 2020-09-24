@@ -11,6 +11,7 @@ Finding your Google Places ID (PID) can be difficult. Most instructions will tel
 
 I came across this problem today after trying to add a link to Google Reviews for one of my acquaintances and have implented a solution for anyone struggling to find their PID. Download and run this simple interface to easily find your PID.
 
+<img src="https://github.com/cherkesky/get_pid/blob/master/getpid_gif.gif " height="200" width="600">
 
 
 #### Technology Stack: 
