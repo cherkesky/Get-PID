@@ -3,7 +3,7 @@
 
 ### by Guy Cherkesky | [LinkedIn](http://linkedin.com/in/cherkesky) | [Website](http://cherkesky.com) 
 
-Can't find your Google Place ID? Get Any Google My Business / Google Places Place ID (PID) with this simple program.
+Can't find your Google Places ID? Get Any Google My Business / Google Places Place ID (PID) with this simple program.
 
 
 ## Details
