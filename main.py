@@ -3,6 +3,7 @@ from get_pid import get_pid
 
 def run_get_pid():
     pid.configure(state='normal')
+    pid.delete("0",tk.END)
     resolved_pid = get_pid('main', name.get())
     pid.insert('end', str(resolved_pid))
 
