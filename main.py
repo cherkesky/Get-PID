@@ -1,7 +1,7 @@
 import tkinter as tk
 from get_pid import get_pid
 
-def run_get_pid():
+def run_get_pid(event):
     pid.configure(state='normal')
     pid.delete("0",tk.END)
     resolved_pid = get_pid('main', name.get())
@@ -11,6 +11,7 @@ root = tk.Tk()
 root.winfo_toplevel().title("GetPID")
 tk.Label(root, text="Enter Business Name").grid(row=0)
 tk.Label(root, text="Place ID (PID) Result:").grid(row=1)
+root.bind('<Return>', run_get_pid)
 
 name = tk.Entry(root, width=25)
 pid = tk.Entry(root, width=25)
