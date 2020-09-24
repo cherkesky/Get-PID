@@ -23,6 +23,10 @@ I came across this problem today after trying to add a link to Google Reviews fo
 
 Download the executable from:
 
-### `https://cherkesky.com/assets/getpid/get_pid.zip`
+#### MacOs
+### `https://cherkesky.com/assets/getpid/macos_getpid.zip`
+
+#### Windows
+### `Coming soon!`
 
 Good Luck!
