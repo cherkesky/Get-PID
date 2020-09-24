@@ -19,6 +19,6 @@ Get Any Google My Business / Google Maps Place ID (PID)
 
 Download the executable from:
 
-### `https://cherkesky.com/getpid`
+### `https://cherkesky.com/assets/getpid.zip`
 
 Good Luck!
