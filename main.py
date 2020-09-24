@@ -3,20 +3,26 @@ from tkinter import messagebox
 from get_pid import get_pid
 
 def run_get_pid_enter(event):
-    pid.configure(state='normal')
-    pid.delete("0",tk.END)
-    resolved_pid = get_pid('main', name.get())
-    pid.insert('end', str(resolved_pid))
-    if resolved_pid==None:
-        messagebox.showwarning("Oops", "No Business Or Multiple Businesses Found.  Try Adding A Location Or Check Spelling")
+    if len(name.get()) ==0:
+        messagebox.showwarning("Oops", "Please enter a business name and try again")
+    else:
+        pid.configure(state='normal')
+        pid.delete("0",tk.END)
+        resolved_pid = get_pid('main', name.get())
+        pid.insert('end', str(resolved_pid))
+        if resolved_pid==None:
+            messagebox.showwarning("Oops", "No Business Or Multiple Businesses Found!  Try Adding A Location Or Check Spelling")
 
 def run_get_pid():
-    pid.configure(state='normal')
-    pid.delete("0",tk.END)
-    resolved_pid = get_pid('main', name.get())
-    pid.insert('end', str(resolved_pid))
-    if resolved_pid==None:
-        messagebox.showwarning("Oops", "No Business Or Multiple Businesses Found.  Try Adding A Location Or Check Spelling")
+ if len(name.get()) ==0:
+        messagebox.showwarning("Oops", "Please enter a business name and try again")
+ else:
+        pid.configure(state='normal')
+        pid.delete("0",tk.END)
+        resolved_pid = get_pid('main', name.get())
+        pid.insert('end', str(resolved_pid))
+        if resolved_pid==None:
+            messagebox.showwarning("Oops", "No Business Or Multiple Businesses Found!  Try Adding A Location Or Check Spelling")
 
 root = tk.Tk()
 root.winfo_toplevel().title("GetPID")
