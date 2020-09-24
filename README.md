@@ -1,5 +1,5 @@
 
-<img src="https://github.com/cherkesky/get_pid/blob/master/getpid_logo.png height="400" width="600">
+img src="https://github.com/cherkesky/get_pid/blob/master/getpid_logo.png height="400" width="600"
 
 ### by Guy Cherkesky | [LinkedIn](http://linkedin.com/in/cherkesky) | [Website](http://cherkesky.com) 
 
