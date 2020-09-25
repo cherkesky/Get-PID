@@ -28,6 +28,6 @@ Download the executable from:
 ### `https://cherkesky.com/assets/getpid/macos_getpid.zip`
 
 #### Windows
-### `Coming soon!`
+### `https://cherkesky.com/assets/getpid/win_getpid.zip`
 
 Good Luck!
