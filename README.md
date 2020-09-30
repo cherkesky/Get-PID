@@ -20,7 +20,7 @@ I came across this problem today after trying to add a link to Google Reviews fo
 - Tkinker
 - PyInstaller
 
-## Running Locally
+## Run It Locally
 
 Download the executable from:
 
@@ -29,5 +29,14 @@ Download the executable from:
 
 #### Windows
 ### `https://cherkesky.com/assets/getpid/win_getpid.zip`
+
+
+## Build Yourself
+
+### `python -m venv env`
+### `source env/bin/activate`
+### `pip install -r requirements.txt`
+### `python main.py`
+
 
 Good Luck!
